@@ -1,37 +1,36 @@
 name: CAPOEIRA GINGA NO CANAVIAL
-tagline: ''
-url: ''
-footer: <div>Powered by <a href="https://github.com/rochacbruno/marmite">Marmite</a> | <small><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY_NC-SA</a></small></div>
-language: ''
+tagline: ""
+url: "capoeiragnc.github.io"
+language: "ES"
 pagination: 10
-pages_title: Pages
+pages_title: Paginas
 tags_title: Tags
-tags_content_title: Posts tagged with '$tag'
-archives_title: Archive
-archives_content_title: Posts from '$year'
+tags_content_title: Posts tageados con '$tag'
+archives_title: Archivo
+archives_content_title: Posts de '$year'
 streams_title: Streams
-streams_content_title: ''
-default_author: ''
-authors_title: Authors
+streams_content_title: ""
+default_author: "CAPOEIRA GINGA NO CANAVIAL"
+authors_title: Autores
 enable_search: true
 enable_related_content: false
-search_title: ''
+search_title: ""
 content_path: content
-site_path: ''
+site_path: ""
 templates_path: templates
 static_path: static
 media_path: media
-card_image: ''
-banner_image: ''
-logo_image: ''
-default_date_format: '%b %e, %Y'
+card_image: ""
+banner_image: ""
+logo_image: ""
+default_date_format: "%b %e, %Y"
 menu:
-- - Tags
-  - tags.html
-- - Archive
-  - archive.html
-- - Authors
-  - authors.html
+  - - Tags
+    - tags.html
+  - - Archivo
+    - archive.html
+  - - Autores
+    - authors.html
 extra:
   colorscheme: clean
 authors: {}
