@@ -81,14 +81,15 @@
             <nav class="header-nav">
                 <ul class="header-name">
                     <li>
-                        <hgroup>
-                            <img src="./static/img/logo-medium.png"><h2><a href="./" class="contrast">{{ site.name }}</a></h2>
+                        <hgroup style="display: flex; align-items: center;">
+                            <img src="./static/img/logo-medium.png" style="margin-right: 10px;">
+                            <h2><a href="./" class="contrast">{{ site.name }}</a></h2>
                             {% if site.tagline %} <p>{{ site.tagline }}</p> {% endif %}
                         </hgroup>
                     </li>
                 </ul>
                 <button id="menu-toggle" class="hamburger">&#9776;</button>
-                
+
                 <ul class="header-menu" id="header-menu">
                     {% for item in menu %}
                       {% set name = item.0 %}
