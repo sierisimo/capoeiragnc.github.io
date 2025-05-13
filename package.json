@@ -1,0 +1,25 @@
+{
+  "name": "capoeiragnc.github.io",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/capoeiragnc.github.description/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sierisimo/capoeiragnc.github.io.git"
+  },
+  "keywords": [],
+  "author": "Sierisimo Sier",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sierisimo/capoeiragnc.github.io/issues"
+  },
+  "homepage": "https://github.com/sierisimo/capoeiragnc.github.io#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

@@ -1,1 +1,0 @@
-##### Bienvenido a CAPOEIRA GINGA NO CANAVIAL
