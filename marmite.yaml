@@ -26,12 +26,9 @@ banner_image: ""
 logo_image: ""
 default_date_format: "%b %e, %Y"
 menu:
-  - - Tags
-    - tags.html
-  - - Archive
-    - archive.html
-  - - Authors
-    - authors.html
+  - ["Tags", tags.html]
+  - ["Archive", archive.html]
+  - ["Authors", authors.html]
 extra:
   colorscheme: clean
 authors: {}
