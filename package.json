@@ -1,25 +1,57 @@
 {
-  "name": "capoeiragnc.github.io",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "name": "capoeira-ginga-no-canavial",
+  "version": "1.0.0",
+  "description": "Professional website for Capoeira Ginga no Canavial academy",
+  "main": "index.html",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/capoeiragnc.github.description/"
+    "start": "live-server --port=8000 --open=/",
+    "dev": "live-server --port=8000 --open=/ --watch=assets/",
+    "build": "echo 'No build process needed for static site'",
+    "test": "echo 'No tests specified'",
+    "validate": "html-validate index.html && stylelint assets/css/*.css && eslint assets/js/*.js",
+    "format": "prettier --write *.html assets/css/*.css assets/js/*.js",
+    "optimize": "imagemin assets/images/*.png --out-dir=assets/images/optimized/"
   },
+  "keywords": [
+    "capoeira",
+    "academy",
+    "martial-arts",
+    "brazilian-culture",
+    "ginga",
+    "canavial",
+    "website",
+    "frontend"
+  ],
+  "author": {
+    "name": "Capoeira Ginga no Canavial",
+    "email": "contacto@ginganocanavial.com"
+  },
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sierisimo/capoeiragnc.github.io.git"
+    "url": "https://github.com/sierisimo/capoeira-ginga-no-canavial.git"
   },
-  "keywords": [],
-  "author": "Sierisimo Sier",
-  "license": "ISC",
-  "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/sierisimo/capoeiragnc.github.io/issues"
+    "url": "https://github.com/sierisimo/capoeira-ginga-no-canavial/issues"
   },
-  "homepage": "https://github.com/sierisimo/capoeiragnc.github.io#readme",
-  "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+  "homepage": "https://sierisimo.github.io/capoeira-ginga-no-canavial/",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "prettier": "^3.0.0",
+    "eslint": "^8.0.0",
+    "stylelint": "^15.0.0",
+    "stylelint-config-standard": "^34.0.0",
+    "html-validate": "^8.0.0",
+    "imagemin": "^8.0.1",
+    "imagemin-pngquant": "^9.0.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
   }
-}
+} 
